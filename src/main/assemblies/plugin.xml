@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<assembly>
+    <id>plugin</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>org.zepan.elasticsearch.river.pinboard:pinboard-river</include>
+                <include>com.google.code.gson:*</include>
+                <include>org.apache.httpcomponents:*</include>
+                <include>com.fasterxml.jackson.core:*</include>
+            </includes>
+        </dependencySet>
+    </dependencySets>
+</assembly>
