@@ -11,7 +11,6 @@
             <includes>
                 <include>org.zepan.elasticsearch.river.pinboard:pinboard-river</include>
                 <include>com.google.code.gson:*</include>
-                <include>org.apache.httpcomponents:*</include>
                 <include>com.fasterxml.jackson.core:*</include>
             </includes>
         </dependencySet>
